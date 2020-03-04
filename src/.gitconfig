@@ -1,0 +1,12 @@
+[user]
+  name = Vadim Kurnakov
+  email = vkurnakov@spbfiller.com
+[core]
+  pager = diff-so-fancy | less --tabs=4 -RFX
+
+[diff]
+  tool = vscode
+[difftool "vscode"]
+  cmd = code --wait --diff $LOCAL $REMOTE
+
+

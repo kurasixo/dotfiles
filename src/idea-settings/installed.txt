@@ -1,0 +1,7 @@
+PlantUML integration
+com.chrisrm.idea.MaterialThemeUI
+com.github.redfoos.logstash-intellij-plugin
+org.intellij.scala
+org.jetbrains.plugins.hocon
+org.pmesmeur.sketchit
+training

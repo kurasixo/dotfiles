@@ -1,0 +1,13 @@
+<application>
+  <component name="GeneralSettings">
+    <option name="confirmOpenNewProject2" value="1" />
+    <option name="showTipsOnStartup" value="false" />
+  </component>
+  <component name="Registry">
+    <entry key="BSP.system.in.process" value="true" />
+    <entry key="SBT.system.in.process" value="true" />
+    <entry key="ide.balloon.shadow.size" value="0" />
+    <entry key="ide.tree.ui.experimental" value="false" />
+    <entry key="ide.open.readme.md.on.startup" value="false" />
+  </component>
+</application>

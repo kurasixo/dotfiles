@@ -1,0 +1,122 @@
+{
+  /* Common */
+  "window.zoomLevel": 1,
+  "breadcrumbs.enabled": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "terminal.integrated.fontSize": 13,
+
+  /* Editor */
+  "editor.fontSize": 15,
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "Fira Code",
+  // "editor.fontFamily": "Cyberpunk",
+  "editor.tabSize": 2,
+  "editor.minimap.enabled": false,
+  "editor.renderIndentGuides": false,
+  "editor.rulers": [
+    100
+  ],
+  "[python]": {
+    "editor.tabSize": 4,
+  },
+  "[java]": {
+    "editor.tabSize": 4,
+  },
+  "editor.formatOnSave": false,
+  "editor.formatOnPaste": false,
+
+  /* Workbrench */
+  // "workbench.panel.defaultLocation": "right",
+
+  "workbench.editor.showTabs": true,
+  "workbench.editor.labelFormat": "short",
+  "workbench.colorTheme": "Nord",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.list.automaticKeyboardNavigation": false,
+  "workbench.tree.renderIndentGuides": "none",
+
+  /* Explorer */
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+
+  /* Telemetry */
+  "telemetry.enableTelemetry": false,
+  "telemetry.enableCrashReporter": false,
+
+  /* Search */
+  "search.showLineNumbers": true,
+  "search.useIgnoreFiles": true,
+  "search.collapseResults": "alwaysExpand",
+  // "search.location": "panel",
+
+  /* Files */
+  "files.trimTrailingWhitespace": true,
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true,
+
+    // "**/node_modules": true,
+    "**/.git": true,
+    "**/.cache": true,
+    // "**/build": true,
+    "**/.bloop": true,
+    "**/.gradle": true,
+    "**/.metals": true,
+    // "**/bin": true,
+    "*.snap": true,
+    "coverage": true,
+  },
+
+  /* Git */
+  "git.autofetch": true,
+  "git.confirmSync": false,
+
+  /* Validation */
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "javascript.validate.enable": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+
+  "keyboard.touchbar.enabled": false,
+  /* Plugins */
+  /* ** Material-Icon ** */
+  "material-icon-theme.opacity": 0.7,
+  "material-icon-theme.activeIconPack": "none",
+  "material-icon-theme.showWelcomeMessage": false,
+
+  /* ** Eslint ** */
+  "eslint.packageManager": "yarn",
+  "eslint.workingDirectories": [
+    "*",
+    "./",
+    "./packages/"
+  ],
+  "eslint.enable": true,
+
+  /* ** Cpp ** */
+  "C_Cpp.updateChannel": "Insiders",
+  "C_Cpp.default.compilerPath": "/usr/local/bin/avr-gcc",
+  "terminal.integrated.fontWeightBold": "normal",
+
+
+  /* **Java** */
+  "java.actionsOnPaste.organizeImports" : false,
+  /* Enable for fun */
+  // "vscode_custom_css.imports": [
+  //     "file:///Users/kurnakov/.vscode/extensions/robbowen.synthwave-vscode-0.0.7/synthwave84.css"
+  // ],
+
+  /* ** Scala/Java metals ** */
+  "editor.suggestSelection": "first",
+  "java.errors.incompleteClasspath.severity": "ignore",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "metals.javaHome": "/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/",
+  "terminal.integrated.rendererType": "dom",
+  "gitlens.mode.active": "review",
+  "workbench.activityBar.visible": true,
+  "emulator.emulatorPathMac": "~/Library/Android/sdk/emulator"
+}
